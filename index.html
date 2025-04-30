@@ -182,24 +182,21 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p>Write an inquiry for anything! General questions, proposals, and project inquiries accepted.</p>
-							<form method="post" action="rschraeder2@gmail.com">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+							<!-- modify this form HTML and place wherever you want your form -->
+							<form
+							  action="https://formspree.io/f/xjkwgjzq"
+							  method="POST"
+							>
+							  <label>
+							    Your email address:
+							    <input type="email" name="email">
+							  </label>
+							  <label>
+							    Your message:
+							    <textarea name="message"></textarea>
+							  </label>
+							  <!-- your other form fields go here -->
+							  <button type="submit">Send</button>
 							</form>
 							<ul class="copyright">
 								<li>&copy; Ryan Schraeder. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
